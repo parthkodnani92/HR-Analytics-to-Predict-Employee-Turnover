@@ -1,1 +1,7 @@
-# parthkodnani92-HR-Analytics-to-Predict-Employee-Turnover
+# HR-Analytics-to-Predict-Employee-Turnover
+
+In the given project, we aim to determine the job retention rate of employees and the different factors which affect an employee's decision to either stay or leave the company. The given dataset covers different factors (characterized by the different columns) that may affect a person’s decision to leave their current job. Using this information, the company is interested in looking at how those factors might translate to an employee leaving the company and how it can improve the training programs to increase employee retention rate.
+
+We perform some Data Processing on the given features like dealing with Null Values, binning columns to create new categories, creating crosstabs for categorical features and scatterplots for the numerical ones. We analyze the 'Target' variable and its relationship with other predictor variables. We create some visualizations to intuitively view the data in a graphical format.
+
+We then perform some Modeling to predict the probability of employees wanting to work with companies. Since our Target variable is categorical, we use Classsifications algorithms. We use 5 different models and achieve the best accuracy using the Decision Tree model, coupled with the GridSearch CV optimizer. The algorithm correctly classifies 78% of the test data points. We perform feature selection, which selects the most appropriate features for the model.
